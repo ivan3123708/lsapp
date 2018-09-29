@@ -13,4 +13,5 @@
   @else
     <p>No post found.</p>
   @endif
+  <a class="btn btn-primary" href="/lsapp/public/posts/create">Create Post</a>
 @endsection
