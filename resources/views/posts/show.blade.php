@@ -3,7 +3,7 @@
 @section('content')
   <a href="/lsapp/public/posts" class="btn btn-default">Go Back</a>
   <h1>{{ $post->title }}</h1>
-  <small>written on {{ $post->created_at }}</small>
+  <small>written on {{ $post->created_at }} by {{ $post->user->name }}</small>
   <div>
     {!! $post->body !!}
   </div>
